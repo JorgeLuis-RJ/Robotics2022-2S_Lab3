@@ -27,9 +27,10 @@ Four new digital signals were added to the default controller signals, _DI_01_ a
 
 ### Station Logic and Smart Components
 
-
-
 #### Highlighter
+The smart component _Highlighter_ was used for changing the surface colour of the light bulb controlled by the _DO_01_ output signal from a dark green colour, which seems to appear as a turned off light bulb, to a light green simulating the lighting of that indicating bulb.
+
+![This is an image](/assets/StationLogic.png)
 
 ### RAPID Code
 In the desire of implementing a procedure that checks if any of the two input signals are in a high level, so it can proceed with the stablished routine, a _WaitUntil_ instruction was called verifying the signal's state everytime the _main_ procedure is run. Once any of the two inputs is set on 1, the program enters in an *IF... THEN* statement that initializes the selected path. Here is part of the RAPID's _Module1_ code, specifically, the _main()_ procedure.
