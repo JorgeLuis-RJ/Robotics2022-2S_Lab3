@@ -15,4 +15,9 @@ This repository shows all the procedures done to complete the Third Laboratory i
 
 ### Methods
 #### Modeling of the Station
-First of all, it was recycled the station created in the First Laboratory, so all the targets, workobjects and paths for any of the two writing instructions were already there. In a really simple decission, the path around the inclined plane was chosen over the one around the horizontal plane, so all those elements were deleted. Just for aesthetics issues, an IRC5 Control Module component was added next to the surface that simulates the whiteboard located in the LabSir.
+![This is an image](/assets/StationOverview.png)
+First of all, it was recycled the station created in the First Laboratory, so all the targets, workobjects and paths for any of the two writing instructions were already there. In a really simple decision, the path around the inclined plane was chosen over the one around the horizontal plane, so all those elements were deleted. Just for aesthetics issues, an IRC5 Control Module component was added next to the surface that simulates the whiteboard located in the LabSir. Finally, a table and the control panel were manually created using the simple solid shapes of the modeling layout.
+
+### Digital Input and Output Signals
+
+
